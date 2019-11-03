@@ -24,6 +24,11 @@ class Dec2Hex
                 System.exit(1);
             }
         }
+        else if (args.length == 0)
+        {
+            System.err.println("Please enter a decimal number!");
+            System.exit(1);
+        }
 
         // Char declaration as an array with values
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
