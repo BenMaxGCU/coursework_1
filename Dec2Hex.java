@@ -24,10 +24,10 @@ class Dec2Hex
                 System.exit(1);
             }
         }
-        else if (args.length == 0)
+        else if (args.length == 0) // If the length of string args isn't longer than 0 then it will enter this else if
         {
-            System.err.println("Please enter a decimal number!");
-            System.exit(1);
+            System.err.println("Please enter a decimal number!"); // Displays error messages to user
+            System.exit(1); // Forces the program to end 
         }
 
         // Char declaration as an array with values
